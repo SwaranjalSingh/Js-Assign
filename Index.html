@@ -75,7 +75,7 @@
         async function getUser() {
             const token = window.sessionStorage.getItem("token");
             if (!token) {
-                window.location = "index.html";
+                window.location = "login.html";
                 return false;
             }
             // Making an API call (request)
